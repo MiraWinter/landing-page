@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+}
+
+.cards {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+}
+
+.call-to-action {
+    display: flex;
+}

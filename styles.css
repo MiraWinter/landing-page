@@ -50,6 +50,7 @@ footer {
     background-color: #1F2937;
     display: flex;
     padding: 72px;
+    justify-content: center;
 }
 
 .hero-content {
@@ -90,6 +91,7 @@ footer {
     display: flex;
     gap: 24px;
     padding: 0 72px 48px 72px;
+    justify-content: center;
 }
 
 .card img{
@@ -119,7 +121,20 @@ footer {
 
 .call-to-action {
     display: flex;
+    justify-content: center;
 }
+
+.call-to-action-content {
+    display: flex;
+    margin: 72px;
+    background-color: #3882F6;
+    padding: 24px 72px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 
 .hero-content {
     display: flex;

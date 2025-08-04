@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 72px;
+    padding: 16px 144px;
 }
 
 ul {
@@ -30,8 +30,8 @@ a {
 }
 
 img {
-    height: 300px;
-    width: 700px;
+    height: 200px;
+    width: 800px;
 }
 
 footer {
@@ -49,7 +49,7 @@ footer {
 .hero {
     background-color: #1F2937;
     display: flex;
-    padding: 72px;
+    padding: 72px 144px;
     justify-content: center;
 }
 
@@ -70,6 +70,19 @@ footer {
     padding-right: 12px;
 }
 
+.sign-up-button {
+    padding: 8px 16px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: none;
+}
+
+.card-gallery {
+    text-align: center;
+    margin-bottom: 72px;
+}
+
 .card-title {
     font-size: 36px;
     font-weight: 900;
@@ -77,21 +90,16 @@ footer {
     padding: 24px 0;
 }
 
-.sign-up-button {
-    padding: 8px 16px;
-    background-color: #3882F6;
-    color: #F9FAF8;
-}
-
-.card-gallery {
-    text-align: center;
-}
-
 .cards {
     display: flex;
-    gap: 24px;
+    gap: 48px;
     padding: 0 72px 48px 72px;
     justify-content: center;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
 }
 
 .card img{
@@ -105,7 +113,7 @@ footer {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 72px 144px;
+    padding: 72px 212px;
 }
 
 .quote-text {
@@ -117,6 +125,7 @@ footer {
 .quote-attribution {
     text-align: right;
     font-weight: bold;
+    margin-top: 24px;
 }
 
 .call-to-action {
@@ -126,17 +135,39 @@ footer {
 
 .call-to-action-content {
     display: flex;
-    margin: 72px;
+    margin: 72px 144px;
     background-color: #3882F6;
     padding: 24px 72px;
     border-radius: 5px;
     align-items: center;
     justify-content: space-between;
+    flex: 1;
 }
 
+.call-to-action-text, .call-to-action-title {
+    color: #F9FAF8;
+}
 
+.call-to-action-title {
+    font-size: 16px;
+}
+
+.call-to-action-text {
+    font-size: 12px;
+    color: #E5E7EB;
+}
+
+.call-to-action .sign-up-button {
+    border: 2px solid #F9FAF8;
+}
 
 .hero-content {
     display: flex;
     flex-direction: column;
+}
+
+.copyright {
+    color: #F9FAF8;
+    font-size: 12px;
+    padding: 8px;
 }
